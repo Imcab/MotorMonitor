@@ -1,0 +1,55 @@
+site_name: Motor Monitor - 3472
+site_url: https://MotorMonitor.org
+
+plugins:
+  - search
+
+repo_url: https://github.com/Imcab/MotorMonitor
+
+repo_name: Imcab/MotorMonitor
+
+theme:
+  icon:
+    repo: simple/github
+    admonition:
+      note: octicons/note-16
+  logo: assets/Logo.png
+  font:
+    text: Ubuntu
+  palette:
+    - scheme: slate
+      primary: green
+      accent: indigo
+      
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - toc.integrate
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/Imcab

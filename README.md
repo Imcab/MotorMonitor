@@ -1,4 +1,4 @@
-![](assets/Logo1.png)
+![](/docs/assets/Logo1.png)
 
 # Motor Monitor - 3472
 

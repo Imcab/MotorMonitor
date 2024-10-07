@@ -1,4 +1,4 @@
-# **Using Motor Monitor -Loging**
+# **Using Motor Monitor -Logging**
 
 `MotorMonitor` provides a lot of methods to provide safety and logging to know what is actually happening to the motor
 

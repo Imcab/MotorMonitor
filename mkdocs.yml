@@ -14,6 +14,7 @@ theme:
     admonition:
       note: octicons/note-16
   logo: assets/Logo.png
+  favicon: assets/Logo2.png
   font:
     text: Ubuntu
   palette:

@@ -28,15 +28,15 @@ The list of all the protocols can be found here:
     A protocol will be triggered if the motor reports:
     **High current or Low Battery of the robot**
 
-* kNone: safety functions disabled
-* kShutdown: shutdowns the motor until the current is safe
-* kProportionalReduction: Reduce the given output proportionally
-* kBatterySaver: Triggered if the battery voltage is low, reducing the given output by half
-* kCooldown: The motor enters in a cooldown mode
-* mpPredictiveOverload: If the motor's current increases rapidly, reduce the given output
-* kVoltageSpikeProtection: Analyse if the motor is taking a voltage drop, reducing it's output
-* kSmartCooldown: Predict if the motor needs to cooldown and reduce the given output
-* kDynamicPowerLimit: Limits the output based on the pdp's total current
+* **kNone:** safety functions disabled
+* **kShutdown:** shutdowns the motor until the current is safe
+* **kProportionalReduction:** Reduce the given output proportionally
+* **kBatterySaver:** Triggered if the battery voltage is low, reducing the given output by half
+* **kCooldown:** The motor enters in a cooldown mode
+* **mpPredictiveOverload:** If the motor's current increases rapidly, reduce the given output
+* **kVoltageSpikeProtection:** Analyse if the motor is taking a voltage drop, reducing it's output
+* **kSmartCooldown:** Predict if the motor needs to cooldown and reduce the given output
+* **kDynamicPowerLimit:** Limits the output based on the pdp's total current
 
 ### **Default values**
 

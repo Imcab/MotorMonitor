@@ -49,8 +49,6 @@ public class MotorMonitor{
 
     public static final double DEFAULT_MAXCURRENTCHANGE = 50.0; 
 
-    public static final int DEFAULT_LOG_LIMIT= 1000;
-
     /**
      * All this protocols will be triggerd 
      * <p> mpNone: safety functions disabled
@@ -70,8 +68,8 @@ public class MotorMonitor{
     }
     /**
      * The Motor Monitor Class checks individually the state of the motor and sends alerts
-     * @param protocol The protocol that motor will take if it detects high current or low voltage from the battery
-     * @param channel The CAN ID to check the motor
+     * @param pdp The power distribution system
+     * @param channel The pdp's channel to check the motor
      */
     public MotorMonitor(PowerDistribution pdp, int channel){
         this.pdp = pdp;
@@ -235,7 +233,7 @@ public class MotorMonitor{
             overCurrentStart = 0;
             
         }
-        return ("Current State:  (Motor in channel[ "+ channel + "])");
+        return ("Current State: Good (Motor in channel[ "+ channel + "])");
     }
     private double getBatteryVoltage(){
         return RobotController.getBatteryVoltage();

@@ -20,7 +20,7 @@ theme:
     - scheme: slate
       primary: green
       accent: indigo
-      
+  
   name: material
   features:
     - navigation.instant
@@ -30,7 +30,7 @@ theme:
     - navigation.footer
     - toc.integrate
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annottation
     - content.code.copy
     - content.code.select
 
@@ -48,7 +48,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
-
 extra:
   social:
     - icon: simple/github

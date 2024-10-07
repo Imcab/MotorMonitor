@@ -1,11 +1,11 @@
 # **Using Motor Monitor - WithSafety**
 
 !!! warning
-    Before using the `withSafety(motorvalue)` method, make sure you already have [configured](/page2) the `MotorMonitor` and already have a 
-    **[protocol](/page2/#protocol)**
+    Before using the `withSafety(motorvalue)` method, make sure you already have [configured](/MotorMonitor/page2/) the `MotorMonitor` and already have a
+    **[protocol](/MotorMonitor/page2/#protocol)**
 
-Remember the configuration we set on [Configuring the MotorMonitor](/page2) ?
-With that configuration we can run a given output with the [safety protocols](/page2/#protocol) without worrying of the overcurrent/states of the motor or manually setting up, the `withSafety(motorvalue)` method will do all that for you:
+Remember the configuration we set on [Configuring the MotorMonitor](/MotorMonitor/page2/) ?
+With that configuration we can run a given output with the [safety protocols](/MotorMonitor/page2/#protocol) without worrying of the overcurrent/states of the motor or manually setting up, the `withSafety(motorvalue)` method will do all that for you:
 
 `withSafety(motorvalue)`
 Let the Monitor take actions based on high current levels or low battery voltage to preserve the motor conditions

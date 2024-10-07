@@ -9,7 +9,7 @@ is important for various reasons:
 
 ## **Shutdown Methods**
 
-To shutdown a motor, we need a motor running with the `withSafety(motorvalue)` method ([guide here](/page5)),
+To shutdown a motor, we need a motor running with the `withSafety(motorvalue)` method ([guide here](/MotorMonitor/page5/)),
 we have the simple `forceShutDown()` method that we can call it, forcing the motor to shutdown
 
 ``` java

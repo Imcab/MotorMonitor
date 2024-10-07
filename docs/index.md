@@ -8,7 +8,8 @@ Motor Monitor, developed by team [#3472](https://www.thebluealliance.com/team/34
 
 With Motor Monitor, the motors now will react to high spike voltages, high current or low battery voltage by the robot, preserving the motor and safe it for an damage. Motor Monitor provides a variety of security protocols according to what fits best for every team.
 
-[Download file](SourceFile/MotorMonitor.java "download"){.md-button .md-button--primary}
+<a href="https://raw.githubusercontent.com/Imcab/MotorMonitor/main/docs/SourceFile/MotorMonitor.java" download class="md-button md-button--primary">Download file</a>
+
 
 #### V1.0.2
 
